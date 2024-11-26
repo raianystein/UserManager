@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager.Domain", "UserManager.Domain\UserManager.Domain.csproj", "{381DEFB1-DE8B-4E11-847F-7BF7A6E7BF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager.Service", "UserManager.Service\UserManager.Service.csproj", "{7B282EFC-E58E-47A6-9131-61C079BFB551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager.Infrastructure", "UserManager.Infrastructure\UserManager.Infrastructure.csproj", "{D09D3F71-0B48-402A-A275-D7AF5C6359C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{381DEFB1-DE8B-4E11-847F-7BF7A6E7BF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381DEFB1-DE8B-4E11-847F-7BF7A6E7BF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381DEFB1-DE8B-4E11-847F-7BF7A6E7BF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381DEFB1-DE8B-4E11-847F-7BF7A6E7BF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B282EFC-E58E-47A6-9131-61C079BFB551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B282EFC-E58E-47A6-9131-61C079BFB551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B282EFC-E58E-47A6-9131-61C079BFB551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B282EFC-E58E-47A6-9131-61C079BFB551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09D3F71-0B48-402A-A275-D7AF5C6359C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09D3F71-0B48-402A-A275-D7AF5C6359C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09D3F71-0B48-402A-A275-D7AF5C6359C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09D3F71-0B48-402A-A275-D7AF5C6359C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
